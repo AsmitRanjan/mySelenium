@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14" started-at="2018-09-09T07:45:15Z" finished-at="2018-09-09T07:45:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14" started-at="2018-09-09T07:45:15Z" finished-at="2018-09-09T07:45:15Z">
+      <class name="com.ClearTrip_codingRound_Asmit.HotelBookingTest">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.ClearTrip_codingRound_Asmit.HotelBookingTest@7e0babb1]" name="setup" is-config="true" duration-ms="0" started-at="2018-09-09T13:15:15Z" finished-at="2018-09-09T13:15:15Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setup requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setup requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="loadUrl()[pri:0, instance:com.ClearTrip_codingRound_Asmit.HotelBookingTest@7e0babb1]" name="loadUrl" is-config="true" duration-ms="0" started-at="2018-09-09T13:15:15Z" finished-at="2018-09-09T13:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrl -->
+        <test-method status="SKIP" signature="hotelBooking()[pri:0, instance:com.ClearTrip_codingRound_Asmit.HotelBookingTest@7e0babb1]" name="hotelBooking" duration-ms="1" started-at="2018-09-09T13:15:15Z" finished-at="2018-09-09T13:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelBooking -->
+      </class> <!-- com.ClearTrip_codingRound_Asmit.HotelBookingTest -->
+      <class name="com.ClearTrip_codingRound_Asmit.SignInTest">
+        <test-method status="SKIP" signature="signIn()[pri:0, instance:com.ClearTrip_codingRound_Asmit.SignInTest@2752f6e2]" name="signIn" duration-ms="5" started-at="2018-09-09T13:15:15Z" finished-at="2018-09-09T13:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- com.ClearTrip_codingRound_Asmit.SignInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

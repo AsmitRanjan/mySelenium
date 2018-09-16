@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.ClearTrip_codingRound_Asmit.HotelBookingTest">
+        <methods>
+          <include name="hotelBooking"/>
+        </methods>
+      </class> <!-- com.ClearTrip_codingRound_Asmit.HotelBookingTest -->
+      <class name="com.ClearTrip_codingRound_Asmit.SignInTest">
+        <methods>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- com.ClearTrip_codingRound_Asmit.SignInTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
